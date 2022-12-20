@@ -10,6 +10,6 @@ public class FrontController {
     @GetMapping("/home")
     @ResponseBody
     public String home() {
-        return "updated dhauksnnd home page";
+        return "updated home page";
     }
 }
