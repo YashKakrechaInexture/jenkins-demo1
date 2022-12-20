@@ -10,11 +10,13 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>jenkins-demo1</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins-demo1</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.example.jenkinsdemo1.JenkinsDemo1Application</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
